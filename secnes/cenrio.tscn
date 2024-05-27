@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://yk34jrhnyg6r"]
+
+[ext_resource type="Texture2D" uid="uid://bgcjt3w6178ti" path="res://secnes/pngtree-comic-clouds-png-image_2814432.jpg" id="1_knbib"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_26epr"]
+light_mode = 1
+
+[node name="word" type="Node2D"]
+material = SubResource("CanvasItemMaterial_26epr")
+position = Vector2(239, 188)
+rotation = 6.28319
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -241.001
+offset_top = -188.999
+offset_right = 942.999
+offset_bottom = 480.001
+color = Color(0.286275, 0.313726, 0.337255, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = -262.999
+offset_top = 313.001
+offset_right = 919.001
+offset_bottom = 465.001
+color = Color(0.00669037, 0.118997, 0.0204505, 0.607843)
+
+[node name="Pngtree-comic-clouds-png-image2814432" type="Sprite2D" parent="."]
+position = Vector2(-75.0003, -60.9997)
+scale = Vector2(0.164998, 0.122943)
+texture = ExtResource("1_knbib")
+
+[node name="TileMap" type="TileMap" parent="Pngtree-comic-clouds-png-image2814432"]
+format = 2
